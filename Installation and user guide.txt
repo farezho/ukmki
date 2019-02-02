@@ -11,19 +11,39 @@ Jika menggunakan laragon >> C:/laragon/www
 
 
 [INSTALASI DATABASE]
-1. Ketik localhost/phpmyadmin pada browser. Jika diminta username dan password, cukup ketik root tanpa mengisi bagian password
+Menggunakan XAMPP
+1. Jika teman2 menggunakan xampp, jalankan xampp lalu klik run pada Apache dan MySQL. Tunggu sampai tombol Start berubah menjadi stop juga terdapat informasi Port dan PID
+ 
+2. Ketik localhost/phpmyadmin pada browser. Jika diminta username dan password, cukup ketik root tanpa mengisi bagian password
 
-2. Klik menu New pada sebelah kanan, lalu ketikkan 'ukmki' (tanpa '') sebagai nama database dan klik create
+3. Klik menu New pada sebelah kanan, lalu ketikkan 'ukmki' (tanpa '') sebagai nama database dan klik create
 
-3. Setelah itu klik menu import pada menu bar di bagian atas. File database berada di folder ukmki/db dengan nama file ukmki.sql
+4. Setelah itu klik menu import pada menu bar di bagian atas. File database berada di folder ukmki/db dengan nama file ukmki.sql
+Jika sudah, klik Go pada bagian bawah tanpa mengubah settingan yang ada pada menu import tersebut
+
+
+Menggunakan Laragon
+1. Jika teman2 menggunakan laragon, jalankan laragon lalu klik Start All. Tunggu sampai tombol Start berubah menjadi stop juga terdapat tulisan Apache dan MySQL
+
+2. Klik kanan di logo Laragon yg terdapat pada taskbar, pilih MySQL lalu klik phpMyAdmin. Maka akan terbuka jendela browser baru yg berisi cara pemasangan phpMyAdmin pada laragon
+
+3. Download phpMyAdmin yang disebutkan pada halaman tersebut, ekstrak filenya dan ganti nama folder menjadi phpMyAdmin
+
+4. Letakkan folder phpMyAdmin pada C:/laragon/etc/apps
+
+5. Ketik localhost/phpmyadmin pada browser. Jika diminta username dan password, cukup ketik root tanpa mengisi bagian password
+
+6. Klik menu New pada sebelah kiri, lalu ketikkan 'ukmki' (tanpa '') sebagai nama database dan klik create
+
+7. Setelah itu klik menu import pada menu bar di bagian atas. File database berada di folder ukmki/db dengan nama file ukmki.sql
 Jika sudah, klik Go pada bagian bawah tanpa mengubah settingan yang ada pada menu import tersebut
 
 
 [PENGGUNAAN APLIKASI]
 1. Aplikasi ini hanya bisa dijalankan di localhost (pada komputer yang terdapat aplikasi dan database ini)
 2. Jalankan xampp atau laragon terlebih dahulu sebelum menggunakan aplikasi ini
-3. Jika teman2 menggunakan xampp, jalankan xampp lalu klik run pada Apache dan MySQL. Tunggu sampai tombol run berubah menjadi stop
-   Jika teman2 menggunakan laragon, jalankan laragon lalu klik Start All. Tunggu sampai tombol Start All berubah menjadi stop
+3. Jika teman2 menggunakan xampp, jalankan xampp lalu klik run pada Apache dan MySQL. Tunggu sampai tombol run berubah menjadi stop juga terdapat informasi Port dan PID
+   Jika teman2 menggunakan laragon, jalankan laragon lalu klik Start All. Tunggu sampai tombol Start All berubah menjadi stop juga terdapat tulisan Apache dan MySQL
 4. Pada folder ukmki terdapat file UKMKI UNAIR, cukup klik file tersebut maka aplikasi sudah siap dijalankan
 5. Masukkan username: admin dan password: secret untuk login
 
