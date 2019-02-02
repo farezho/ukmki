@@ -1,0 +1,42 @@
+body{
+	background: #eee;
+}
+
+.wrapper{
+	background: #273a4c;
+	width: 400px; /*aslinya 1100px*/
+	max-height: 500px;
+	margin: 150px auto;
+	font-family: sans-serif;
+	font-size:15px;
+	border-radius: 10px;
+}
+
+.wrapper h1{
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.wrapper input{
+	margin-left: 100px;
+}
+
+.footer{
+	padding: 20px;
+}
+
+@media only screen and (max-width:620px) {
+   /*for mobile phone*/
+  .wrapper{
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  input[type=text], input[type=password], input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
