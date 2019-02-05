@@ -16,7 +16,7 @@ Menggunakan XAMPP
  
 2. Ketik localhost/phpmyadmin pada browser. Jika diminta username dan password, cukup ketik root tanpa mengisi bagian password
 
-3. Klik menu New pada sebelah kanan, lalu ketikkan 'ukmki' (tanpa '') sebagai nama database dan klik create
+3. Klik menu New pada sebelah kiri, lalu ketikkan 'ukmki' (tanpa '') sebagai nama database dan klik create
 
 4. Setelah itu klik menu import pada menu bar di bagian atas. File database berada di folder ukmki/db dengan nama file ukmki.sql
 Jika sudah, klik Go pada bagian bawah tanpa mengubah settingan yang ada pada menu import tersebut
@@ -40,11 +40,13 @@ Jika sudah, klik Go pada bagian bawah tanpa mengubah settingan yang ada pada men
 
 
 [PENGGUNAAN APLIKASI]
-1. Aplikasi ini hanya bisa dijalankan di localhost (pada komputer yang terdapat aplikasi dan database ini)
+1. Karena belum di-online kan, aplikasi ini hanya bisa dijalankan di localhost (pada komputer yang terdapat aplikasi dan database ini)
 2. Jalankan xampp atau laragon terlebih dahulu sebelum menggunakan aplikasi ini
 3. Jika teman2 menggunakan xampp, jalankan xampp lalu klik run pada Apache dan MySQL. Tunggu sampai tombol run berubah menjadi stop juga terdapat informasi Port dan PID
    Jika teman2 menggunakan laragon, jalankan laragon lalu klik Start All. Tunggu sampai tombol Start All berubah menjadi stop juga terdapat tulisan Apache dan MySQL
 4. Pada folder ukmki terdapat file UKMKI UNAIR, cukup klik file tersebut maka aplikasi sudah siap dijalankan
 5. Masukkan username: admin dan password: secret untuk login
+
+NOTE: Jika teman2 memasang aplikasi ini di laptop lain, data2 anggota UKMKI yang ada di database masih data percobaan yang saya lakukan. Untuk itu, teman2 harus menggunakan database yang sebelumnya digunakan oleh rekan anda. Cukup eksport database yang telah digunakan oleh rekan anda, lalu untuk selanjutnya diimport pada laptop yang ingin menginstall aplikasi ini.
 
 Semoga bermanfaat xoxo
